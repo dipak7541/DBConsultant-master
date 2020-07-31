@@ -1,0 +1,164 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+<link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}" />
+
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" />
+    <link
+      rel="stylesheet"
+      href="{% static 'css/owl.theme.default.min.css' %}"
+    />
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" />
+
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}" /></head>
+<body>
+{% include 'Navbar/navbar.html' %}
+<div class="container">
+    <div class="row" style="padding:50px;">
+        <section id="geotechnical">
+        <h1>Geo-Technical Investigation</h1>
+        <p>Geotechnical investigations are performed by geotechnical engineers or engineering
+            geologists to obtain information on the physical properties of soil
+            earthworks and foundations for proposed structures and for repair of
+            distress to earthworks and structures caused by subsurface conditions.
+            This type of investigation is called a site investigation. Additionally,
+            geotechnical iLegalitiesnvestigations are also used to measure the thermal resistivity
+            of soils or backfill materials required for underground transmission lines, oil
+            and gas pipelines, radioactive waste disposal, and solar thermal storage facilities.
+            A geotechnical investigation will include surface exploration and subsurface e
+            xploration of a site. Sometimes, geophysical methods are used to obtain data about sites</p>
+
+    </section>
+        <hr>
+    <section id="roaddesign">
+        <h1>Road Design</h1>
+        <p>The geometric design of roads is the branch of highway engineering concerned with
+            the positioning of the physical elements of the roadway according to standards
+            and constraints. The basic objectives in geometric design are to optimize
+            efficiency and safety while minimizing cost and environmental damage. Geometric
+            design also affects an emerging fifth objective called "livability," which is
+            defined as designing roads to foster broader community goals, including providing
+            access to employment, schools, businesses and residences, accommodate a range of
+            travel modes such as walking, bicycling, transit, and automobiles, and minimizing
+            fuel use, emissions and environmental damage.</p>
+    </section>
+        <hr>
+    <section id="buildingdesign">
+        <h1>Building Design</h1>
+        <p>Building design refers to the broadly based architectural, engineering and technical
+            applications to the design of buildings. All building projects require the services
+            of a building designer, typically a licensed architect. Smaller, less complicated
+            projects often do not require a licensed professional, and the design of such projects
+            is often undertaken by building designers, draftspersons, interior designers (for
+            interior fit-outs or renovations), or contractors. Larger, more complex building
+            projects require the services of many professionals trained in specialist
+            disciplines, usually coordinated by an architect.</p>
+    </section>
+        <hr>
+    <section id="structureanalysis">
+        <h1>Structure Analysis</h1>
+        <p>It is a method or tool by which we find out how a structure or a member of a
+            structure behaves when subjected to certain excitation. In other words, we
+            mainly focus on finding out internal forces (axial force, shear force, moment),
+            stress, strain, deflection etc in a structure under applied load conditions.
+            Frames can be analyzed by various methods. However, the method of analysis
+            adopted depends upon the types of frame, its configuration.</p>
+    </section>
+        <hr>
+    <section id="estimation">
+        <h1>Estimation and Costing</h1>
+        <p>Estimation and costing in Civil deals with calculating the quantities and its
+            expected expenditure to be incurred from particular project. For estimation
+            and costing, followings are required:
+                1. Final plan or drawings of the project. (DRAWING)
+                2. Exact details about workmanship and materials to be used in project. (SPECIFICATION)
+                3. Standard schedule of rates for the present Year. (RATES)
+
+             Why do we need Costing and estimation?
+            1. It helps us to decide whether rate of proposed project match meets our funds
+            available for the project
+            2. Avoids unwanted loss incurred in project
+            3. Helps in inviting tender and quotation to arrange contract
+            4. Gives an idea about time and its schedule of work required for completion of project.</p>
+    </section>
+        <hr>
+    <section id ='realestate'>
+        <h1>Real Estate</h1>
+        <p>Real estate is "property consisting of land and the buildings on it, along with
+            its natural resources such as crops, minerals or water; immovable property
+            of this nature; an interest vested in this (also) an item of real property,
+            (more generally) buildings or housing in general.</p>
+    </section>
+        <hr>
+    <section id="legalities">
+        <h1>Legalities</h1>
+        <p>Legalities in civil engineering  refer to submission of Auto-Cad design to
+            municipality office and help the client throughout the process. Apart from
+            that, our team helps to prepare documentation for the clients selling or
+            buying of property with licensed personality registered at ‘Nepal Lekhapadhi
+            Kaanoon Byawasai Association’, and submission of the prepared documents in
+            ‘Malpot office’.</p>
+    </section>
+    </div>
+</div>
+
+{% include 'Footer/footer.html' %}
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle
+          class="path-bg"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke="#eeeeee"
+        />
+        <circle
+          class="path"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke-miterlimit="10"
+          stroke="#F96D00"
+        />
+      </svg>
+    </div>
+
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/jquery-migrate-3.0.1.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/jquery.animateNumber.min.js' %}"></script>
+    <script src="{% static 'js/scrollax.min.js' %}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="{% static 'js/google-map.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

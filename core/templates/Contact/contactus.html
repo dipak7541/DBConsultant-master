@@ -1,0 +1,92 @@
+{% load static %}
+<section  id="contactform" class="ftco-appointment ftco-section img pb-0">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 pr-md-5">
+        <div class="heading-section heading-section-white">
+          <h2 class="mb-3">We Have Great Results</h2>
+          <p>
+            D.B Engineering Consultancy Pvt. Ltd.is a group of multi-disciplined
+            Engineers, Infrastructure Planners, Real Estate agents, Managers and
+            Designers.Our aim is to add value to your project at every stage
+            by bringing our qualified and dedicated team members. So, For free consultant and
+            quires please contact us:
+          </p>
+         
+        </div>
+      </div>
+      <div class="col-md-6 half ftco-animate">
+        <h2 class="mb-4">Contact Us</h2>
+        <form action="" class="appointment" method="post">
+          {% csrf_token %}
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  name="name"
+                  required=True
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email" name="email"/>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <div class="form-field">
+                  <div class="select-wrap">
+                    <div class="icon">
+                      <span class="fa fa-chevron-down"></span>
+                    </div>
+                     <select name="concerntype" id="" class="form-control">
+                      <option value="geo_techical">Geo-Technical Investication</option>
+                      <option value="road_design">Road Design</option>
+                      <option value="building_design">Building Design</option>
+                      <option value="structure_analysis">Structure Analysis </option>
+                      <option value="real_estate">Real Estate</option>
+                      <option value="estimation">Estimation and Costing</option>
+                      <option value="legalities">Legalities</option>
+                      <option value="others">Small Concerns</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Phone No"  name="phone_no"/>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="7"
+                  class="form-control"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input
+                  type="submit"
+                  value="Send message"
+                  class="btn btn-primary py-3 px-4"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

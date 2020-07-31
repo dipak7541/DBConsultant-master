@@ -1,0 +1,27 @@
+.navbar .container .navbar-nav .nav-item a{  
+    color: black;
+}
+.navbar .container .navbar-nav .nav-item .dropdown-menu a:hover{
+    color: #cbb88c;
+}
+
+.hero-wrap{
+    background-image: url('../images/bg.jpg');
+}
+#department{
+    background-image: url('../images/department.jpg');
+    position: relative;
+}
+.intro{
+    height: 200px;
+    padding-top: 10px;
+    position: relative;
+}
+.button{
+    position: absolute;
+    bottom: 0;
+}
+
+#result{
+    background-image: url('../images/bg.jpg');
+}

@@ -1,0 +1,163 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title><link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}" />
+
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" />
+    <link
+      rel="stylesheet"
+      href="{% static 'css/owl.theme.default.min.css' %}"
+    />
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" />
+
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}" />
+
+    <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{% static 'images/about3.jpg' %}");
+      height: 70%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      padding:10px;
+    }
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+}
+.about{
+    padding:50px 50px 20px 100px;
+
+}
+#aboutus{
+    color:white;
+}
+h1{
+    font-weight:700;
+}
+.linktoservice{
+    padding-left:90%;
+}
+</style>
+</head>
+<body>
+{% include 'Navbar/navbar.html' %}
+<div class="hero-image">
+  <div class="overlay">
+  <div class="container">
+      <div class="row hero-text no-gutters slider-text align-items-center">
+          <div class="col-md-6 ftco-animate d-flex align-items-end">
+               <div class="text w-1000">
+                 <h1>DB CONSULTANT</h1>
+
+                    <h5 id="aboutus">About Us</h5>
+               </div>
+          </div>
+      </div>
+  </div>
+
+<!--    <div class="row no-gutters slider-text align-items-center">-->
+<!--      <div class="col-md-6 ftco-animate d-flex align-items-end">-->
+<!--        <div class="text w-100 text-align-center">-->
+<!--          <h1>DB ENGINEERING </h1>-->
+<!--          <p>For all kinds of Engineering Consultancy Services</p>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--  </div>-->
+</div>
+    </div>
+</div>
+<div class="about">
+    <div class="container">
+        <div class="row">
+            <h1 class="header">For All Kinds of Engineering Consultancy Services</h1>
+             <p>DB Engineering Consultancy Pvt. Ltd. is a group of multi-disciplined Engineers, Infrastructure Planners, Real
+                Estate agents, Managers and Designers. We are providing specialist engineering service in the field of Civil
+                Engineering such as Architecture and Structural Design of structure including Geo-technical Investigation,
+                Detail Design of Roads, Property valuation, Quantity Estimation and Detail study of property for real-estate
+                purpose.
+                D.B Engineering Consultancy Pvt. Ltd. legally established in 2077, is a service-oriented consulting firm, the
+                company offers technical consulting services for a multitude of developmental activities such as Planning,
+                Project Management, Socio-economic studies, Feasibility studies, Survey, Mapping, Applied Research, Risk
+                management and Geo-Technical Investigation. Provide quality service on Investigation and Supervision for all
+                kind of Engineering Construction. Our aim is to add value to your project at every stage by bringing our
+                qualified and dedicated team members.</p>
+            <a class="linktoservice" href="/detailservice/"> See More </a>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+{% include 'Footer/footer.html' %}
+        <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle
+          class="path-bg"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke="#eeeeee"
+        />
+        <circle
+          class="path"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke-miterlimit="10"
+          stroke="#F96D00"
+        />
+      </svg>
+    </div>
+
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/jquery-migrate-3.0.1.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/jquery.animateNumber.min.js' %}"></script>
+    <script src="{% static 'js/scrollax.min.js' %}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="{% static 'js/google-map.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
