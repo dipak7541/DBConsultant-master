@@ -1,0 +1,1 @@
+web: gunicorn DBconsultant.wsgi
